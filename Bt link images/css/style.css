@@ -1,0 +1,11 @@
+/*Danh sách sản phẩm*/
+#dssp{overflow: hidden;}
+h2{padding: 30px;}
+.sp{width: 90%; margin: auto; padding: 50px 0;overflow: hidden;}
+.spIp{float: left;text-align: center;width: 20%}
+.spIp img{width: 100%;}
+.spIp a{font-weight: bold;font-size: 20px; text-decoration: none; color: #555; text-transform: uppercase; padding: 10px 0}
+/*Chi tiết sản phẩm*/
+.ctsp{width: 100%; overflow: hidden;}
+.ctsp1 p span{font-size: 40px; font-weight: bold; color: #000;}
+.ctsp1 p img{ float: left; border-right: 1px solid #ccc; padding-right: 20px; margin-right: 30px; width: 300px;}
