@@ -1,0 +1,50 @@
+
+/*===================================== HEADER =====================================*/
+*{padding: 0; margin: 0; box-sizing: border-box;font-family: 'Roboto', sans-serif; list-style: none; text-decoration: none;}
+body{background-color: #F1F1F1}
+#wrap{width: 100%;}
+#header{width: 1280px; margin: auto;background-color:#fff;}
+#header img{width: 100%; overflow: hidden;}
+.menu{position: relative;width: 100%}
+.logo{width: 150px; position: absolute; top: -100px; left: 80px;}
+.logo img{border-radius: 50%; border: 3px solid #ccc}
+.menu-top{top: 10px;left: 250px;position: absolute;}
+.menu-top .m-menu{float: left; display: block;padding: 10px 20px;background-color: rgba(255, 230, 41, 0.52); margin: 0 2px;}
+.menu-top .m-menu:hover{background-color: #182e45; transition: all ease-in-out .2s}
+.menu-top .m-menu:hover a{color:#fff;}
+.menu-top .m-menu a{color: #182e45;font-size: 16px;font-weight: bold;}
+
+/*===================================== Content =====================================*/
+#content {width: 1280px; margin: auto;overflow: hidden;top:100px;position: relative; border-left: 1px solid #ccc;border-right: 1px solid #ccc;background-color:#fff}
+#content .col-left{width: 20%;float: left;}
+#content .col-right{width: 80%;float: left;}
+#content .col-right .slide img{width: 100%}
+#content .menu-bar{padding: 15px;position: relative;}
+#content .menu-bar h2{font-size: 18px; padding: 5px; line-height: 30px}
+#content .menu-bar .lv1{line-height: 25px;padding: 5px 10px;background: #ccc; margin: 2px 0; border-bottom: 1px solid #000;}
+#content .menu-bar .lv1:hover{background-color: #182e45; transition: all ease-in-out .2s; margin-left: 10px}
+#content .menu-bar .lv1:hover > a{color: #fff}
+#content .menu-bar .lv1 > a{color: #000}
+#content .menu-bar .lv1:hover .ds-sp-lv2{display: block;}
+
+.ds-sp-lv2{position: absolute;width: 1000px; left: 92%; top: 10%; background-color:rgba(255, 255, 255, 0.83); overflow: hidden; z-index: 9999; height: 500px; display: none;}
+.sub-lv2{
+	float: left;
+	width: 25%;
+}
+.sub-lv2 a{display: block; line-height: 25px; padding: 5px 10px;}
+.sub-active{color: red; font-weight: bold;}
+.sub-lv2 > a:hover{background: #ccc;     margin-left: 10px; transition: all ease-in-out .2s}
+
+/*===================================== Main =====================================*/
+#main{width: 1280px; margin: auto;overflow: hidden;position: relative;background-color:#fff}
+#main .box-sp{width: 100%;}
+#main .box-sp .sp{text-align: center; font-weight: bold; font-size: 20px;}
+#main .box-sp .sp .sp1{width: 33.33333%; float: left;padding: 10px}
+#main .box-sp .sp .sp1 span a{color: #182e45;}
+#main .box-sp .sp .sp1 img{width: 100%;margin-bottom: 15px;}
+
+/*===================================== Footer =====================================*/
+#footer{width: 1280px; overflow: hidden;margin:auto;position: relative; height: 100px; z-index: 9999; background-color: #ccc}
+#footer .top{position: fixed;right: 100px; bottom: 20px}
+#footer .top a img{width: 100px; z-index: 99}
