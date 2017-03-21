@@ -1,0 +1,84 @@
+*{box-sizing: border-box;}
+body{	overflow-x: hidden;position: relative;}
+#warp{
+	background: url("../images/bg-body.jpg");	
+	width: 1366px;
+	height: 768px;
+	margin: auto;
+	position: relative;
+}
+.snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('../images/111.png'), url('../images/111.png'), url('../images/111.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+.ice{
+	background: url("../images/ice.png") repeat-x;
+	position: absolute;
+	width: 1366px;
+	height: 72px;
+}
+.banh-sn{top: 41%; left: 10%;position: absolute;}
+.banh-sn img{
+	width: 100%;
+	transform: rotate(-7deg);
+}
+.banh-sn1{top: 41%; left: 31%;position: absolute;}
+.banh-sn1 img{
+	width: 70%;
+}
+.banh-sn2{top: 0; left: 0;position: absolute;}
+.banh-sn2 img{
+	width: 100%;
+}
+.banh-sn3{top: 80%; left: 70%;position: absolute;}
+.banh-sn3 img{
+	width: 100%;
+}
+.banh-sn4{top: 8.6%;left: 38%;;position: absolute;}
+.banh-sn4 img{
+	width: 200%;
+}
+.banh-sn5{    top: 5.6%;left: 30%;position: absolute;}
+.banh-sn5 p{
+	font-size: 40px; color: #fff;
+}
+.banh-sn6{    top: 16.6%;
+    left: 25%;position: absolute;}
+.banh-sn6 p{
+	font-size: 40px; color: #fff;
+}
+.banh-sn7{top: 26%;left: 25%;;position: absolute;}
+.banh-sn7 p{
+	font-size: 50px; color: #fff;
+}
