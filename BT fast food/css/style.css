@@ -1,0 +1,476 @@
+*{text-decoration: none; list-style: none; font-family: font-family: 'Roboto', sans-serif;padding: 0; margin: 0}
+body{overflow-x: hidden;}
+#warpper{
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+	position: relative;
+
+}
+#header {background: url("../images/bg1.jpg")no-repeat;
+	width: 1921px;
+	height: 840px;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+#header h1{
+    display: block;
+    font-family: "Pacifico", cursive;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 800;
+    text-transform: none;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 185px;
+}
+#header span{
+	display: block;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'roboto' !important;
+    text-transform: uppercase;
+}
+#menu{
+	position: relative;
+    width: 100%;}
+#menu > ul{
+    max-width: 700px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 45px;
+    margin: auto;
+
+}
+#menu > ul li{
+	float: left;
+	display: inline-block;
+	padding: 5px 20px;
+	position: relative;
+}
+#menu > ul li a{
+	color: #fff;
+	font-family: "roboto";
+	font-weight: bold;
+	font-size: 20px;
+}
+#menu > ul li span{
+    width: 0;
+    height: 2px;
+    margin-top: 3px;
+    background: #fff;
+    transition: width .3s;
+}
+#menu > ul li:hover span{
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    margin-top: 3px;
+    transition-timing-function: ease-in-out;
+}
+#menu ul ul{
+	display: none;
+	width: 100%;
+	position: absolute;
+}
+#menu > ul li:hover >ul{
+	display: block;
+}
+#menu ul ul li{
+	float: none;
+	width: 100%;
+	transition: padding .5s;
+	transition: background 1s;
+}
+#menu ul ul li a{padding-left: 10px;}
+#menu ul ul li:hover{background:#9dbb46;width: 100% !important; padding: 5px 0; transition: all ease-in-out .5s;}
+#container .box1 .box11 .box111, #container .box2 .box22 .box222, #container .box3 .box33 .box333{
+	width: 50%;
+	transform: rotate(5deg);
+	float: left;
+}
+
+#container .box1{
+	z-index: 999;
+    background: #fff;
+    margin: -82px -54px 0 -37px;
+    transform: rotate(-5deg);
+    position: relative;
+    overflow: hidden;
+}
+#container .box1 .box11{
+	max-width: 1000px;
+	margin: 100px auto;
+}
+#container .box1-left span{
+    font-size: 35px;
+    color: #555;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+    width: 100%;
+    display: block;
+}
+#container .box4-left p{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    line-height: 1.55556;
+    color:  #5a5a5a;
+    padding: 70px 118px 70px 0;
+}
+#container .box4-left a{
+	text-align: center;
+    border: 2px solid #B55854;
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: #B55854;
+    font-weight: 800;
+    font-family: roboto;
+    transition: color .2s;
+}
+#container .box4-left a:hover{
+	background: #B55854;
+	color: #fff;
+	transition: all ease-in-out .2s;
+}
+#container .box2{
+	z-index: 999;
+    background: #80B801;
+    margin: -82px -54px 85px -37px;
+    transform: rotate(-5deg);
+    position: relative;
+    overflow: hidden;
+}
+#container .box2 .box22{
+	max-width: 1000px;
+	margin: 100px auto;
+}
+#container .box2-left img{
+	display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+#container .box3-left img{
+    display: block;
+    width: 70%;
+    margin-top: -50px;
+}
+
+#container .box5-left span{
+    font-size: 35px;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+    width: 100%;
+    display: block;
+}
+#container .box8-left p{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    line-height: 1.55556;
+    color:  #fff;
+    padding: 70px 118px 70px 0;
+}
+#container .box8-left a{
+	text-align: center;
+    border: 2px solid #fff;
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 800;
+    font-family: roboto;
+    transition: color .2s;
+}
+#container .box8-left a:hover{
+	background: #B55854;
+	color: #fff;
+	transition: all ease-in-out .2s;
+}
+
+#container .box3{
+	z-index: 999;
+    background: #fff;
+    margin: -82px -54px 0 -37px;
+    transform: rotate(-5deg);
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 140px;
+
+}
+#container .box3 .box33{
+	max-width: 1000px;
+	margin: 100px auto;
+}
+#container .box9-left span{
+    font-size: 35px;
+    color: #555;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+    width: 100%;
+    display: block;
+}
+#container .box12-left p{
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    line-height: 1.55556;
+    color:  #5a5a5a;
+    padding: 70px 118px 70px 0;
+}
+#container .box12-left a{
+	text-align: center;
+    border: 2px solid #B55854;
+    padding: 15px 35px;
+    border-radius: 30px;
+    color: #B55854;
+    font-weight: 800;
+    font-family: roboto;
+    transition: color .2s;
+}
+#container .box12-left a:hover{
+	background: #B55854;
+	color: #fff;
+	transition: all ease-in-out .2s;
+}
+.box10-left img{
+	display: block;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 2px solid #7BB500;
+}
+.box11-left img{
+	display: block;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 2px solid #7BB500;
+	    margin-top: -85px;
+}
+
+
+#container .box4{
+	z-index: 999;
+    background: #CD5652;
+        margin: -82px -54px -89px -37px;
+    transform: rotate(-5deg);
+    position: relative;
+    overflow: hidden;
+	padding-bottom: 140px;
+
+}
+#container .box4 .box44{
+	max-width: 1000px;
+	margin: 100px auto;
+}
+#container .box13-left span{
+    font-size: 35px;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 800;
+    letter-spacing: 7px;
+    word-spacing: 15px;
+    width: 100%;
+    display: block;
+}
+.box4 .box44 h4{
+    transform: rotate(5deg);
+    width: 100%;
+    display: block;
+    padding: 20px 40px;
+    color: #fff;
+    font-size: 60px;
+    font-family: roboto;
+    clear: both;
+    font-weight: bold;
+    text-align: center;
+}
+#container .box444{
+	width: 30%; float: left;
+	margin: 0 10px;
+	transform: rotate(5deg);
+}
+#container .box444 img{width: 100%;}
+#container .box444 a{
+    font-size: 20px; font-weight: bold;
+    font-family: roboto;
+    color: #fff;
+    margin: 5px 0;
+    display: block;
+    transition: color .2s;
+}
+#container .box444 a:hover{color: #81edff; transition: all ease-in-out .2s}
+#container .box444 span{color: #fff; font-family: roboto; font-size: 18px;}
+.maps{
+    position: relative;}
+#footer{
+    background-color: #83B900;
+    width: 100%;
+    display: block;
+    position: relative;
+        overflow: hidden;
+}
+#footer .logo{box-sizing: border-box;
+    display: block;
+    width: 50%;
+    padding: 40px 0;
+
+}   
+.logo h2{
+    display: block;
+    font-family: "Pacifico", cursive;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 800;
+    text-transform: none;
+    text-align: center;
+    font-size: 40px;
+}
+.logo span{
+    display: block;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 100;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'roboto' !important;
+    text-transform: uppercase;
+}
+#footer .fot{
+    width: 25%;
+    float: left;
+}
+#footer .fot2, #footer .fot3{
+    padding: 40px 0;
+}
+#footer .fot2 a{
+    color: #fff;
+    font-size: 60px;
+    float: left;
+    padding: 0 10px;
+}
+#footer .fot2 a:hover{
+    color: #C54E48;
+    transition: all ease-in-out .2s;}
+#footer .fot3 a{
+    color: #fff;
+    font-size: 16px;
+    float: none;
+    display: block;
+    font-family: roboto;
+}
+/*trang con*/
+#header2 {background: url("../images/bg1.jpg")no-repeat;
+    width: 1921px;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+#header2 h1{
+    display: block;
+    font-family: "Pacifico", cursive;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 800;
+    text-transform: none;
+    text-align: center;
+    font-size: 80px;
+    padding-top: 80px;
+}
+#header2 span{
+    display: block;
+    color: #fff;
+    line-height: 1.6;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'roboto' !important;
+    text-transform: uppercase;
+}
+#container .food{
+    max-width: 1000px; 
+    box-sizing: border-box;
+    margin: auto;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#container .foodss{
+    width: 100%;
+    clear: both;
+}
+#container .foods{
+    float: left;
+    width: 31%;
+    padding: 10px;
+    position: relative;
+}
+#container .foodss .foods a img{width: 100%;}
+#container > h2{
+    font-size: 30px; display: block; text-align: center;
+    padding: 30px 0 20px 0;
+    font-family: roboto;
+    font-weight: bold;
+    position: relative;
+}
+#container > h2 a{    color: #CA504D;
+    border: 2px solid #CA5040;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: color .2s;
+}
+#container > h2 a:hover{
+    background-color:  #CA5040;
+    color: #fff;
+    transition: all ease-in-out .2s;
+}
+#container .foods a span{ 
+    top: 77%;
+    left: 29%;
+    z-index: 999;
+    position: absolute;
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: rgba(23, 23, 23, 0.5);
+    opacity: 0;
+    transition: top .4s opacity .4s ;
+}   
+#container .foods:hover span{
+    top: 45%;
+    transition: all ease-in-out .4s;
+    opacity: 1;
+}
+#container .food{width: 100%; padding: 50px 0 100px 0}
+#container .food .fooo{float: left;width: 45%; padding: 5px;}
+#container .food .fooo img{width: 100%;}
+#container .food .fooo img {
+    width: 100%;
+    border: 5px solid #ccc;
+    box-shadow: 3px 1px 11px 1px #D05653;
+}
+#container .food .para{
+    padding: 30px;
+    font-size: 20px;
+    font-family: roboto;
+    color: #888;
+        padding-left: 60px;
+}
+#container .food .para span{
+    font-weight: bold;
+    color: #cd5652;
+    text-decoration: underline;
+    display: block;
+    padding-bottom: 10px;
+    font-size: 40px;
+    cursor: pointer;
+}
